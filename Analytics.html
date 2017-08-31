@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="content/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="content/metismenu/metisMenu.min.css">
+    <link rel="stylesheet" href="content/metismenu/mm-vertical.css">
+    <link href="content/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <script src="content/jquery/jquery-3.2.1.min.js"></script>
+    <script src="content/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="content/metismenu/jquery.metisMenu.js"></script>
+    <style>
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+        .row.content {
+            height: 550px
+        }
+        /* Set gray background color and 100% height */
+
+        .gray {
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+        .sidenav {
+
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row sidenav">
+            <h2>財金公司會員機構服務網</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 sidenav">
+                <nav class="sidebar-nav">
+                    <ul class="metismenu" id="menu1">
+                      <li>
+                        <a class="has-arrow" href="#">
+                          <span class="fa fa-fw fa-github fa-lg"></span>
+                          財金公司會員機構服務網
+                        </a>
+                      </li>
+                      <li>
+                        <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-th-large" style="margin-right:6px;"></i>便利查詢</a>
+                        <ul aria-expanded="false" class="collapse">
+                          <li><a href="#">ATM查詢</a></li>
+                          <li><a href="#">ATM繳稅查詢</a></li>
+                          <li><a href="#">總分支機構查詢</a></li>
+                          <li><a href="#">跨行轉帳金融機構代號一覽表</a></li>
+                          <li><a href="#">代繳代發金融機構代號一覽表</a></li>
+                          <li><a href="#">銀聯卡發卡行名稱查詢</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-th-large" style="margin-right:6px;"></i>教育訓練</a>
+                        <ul aria-expanded="false" class="collapse">
+                          <li><a href="#">參加單位教育訓練課程</a></li>
+                          <li><a href="#">信用卡業務教育訓練課程</a></li>
+                          <li><a href="#">說明會</a></li>
+                          <li><a href="#">銀行公會教育訓練課程</a></li>
+                          <li>
+                            <a class="has-arrow" href="#" aria-expanded="false">我的報名查詢</a>
+                            <ul aria-expanded="false" class="collapse">
+                              <li><a href="#">報名未確認清單</a></li>
+                              <li><a href="#">報名未確認繳費方式</a></li>
+                              <li><a href="#">我的報名清單</a></li>
+                              <li><a href="#">我的繳費記錄</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a class="has-arrow" href="#" aria-expanded="false">個人資料維護</a>
+                            <ul aria-expanded="false" class="collapse">
+                              <li><a href="#">基本資料維護</a></li>
+                              <li><a href="#">密碼修改</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-th-large" style="margin-right:6px;"></i>會員服務區</a>
+                        <ul aria-expanded="false" class="collapse">
+                            <li>
+                                <a class="has-arrow" href="#" aria-expanded="false">連管作業</a>
+                                <ul aria-expanded="false" class="collapse">
+                                  <li><a href="#">資料下載</a></li>
+                                  <li><a href="#">資料查詢--跨行作業有關人員名單查詢</a></li>
+                                  <li><a href="#">資料上傳</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a class="has-arrow" href="#" aria-expanded="false">營運資料統計</a>
+                                <ul aria-expanded="false" class="collapse">
+                                  <li><a href="#">資料下載</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a class="has-arrow" href="#" aria-expanded="false">測試作業</a>
+                                <ul aria-expanded="false" class="collapse">
+                                  <li><a href="#">資料下載</a></li>
+                                  <li><a href="#">BCP訊息公告</a></li>
+                                  <li><a href="#">BCP資料上傳</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a class="has-arrow" href="#" aria-expanded="false">風管作業</a>
+                                <ul aria-expanded="false" class="collapse">
+                                  <li><a href="#">資料下載</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a class="has-arrow" href="#" aria-expanded="false">銀行公會相關作業</a>
+                                <ul aria-expanded="false" class="collapse">
+                                  <li><a href="#">電子商務業務量統計月報上傳</a></li>
+                                  <li><a href="#">電子商務業務量統計月報查詢</a></li>
+                                  <li><a href="#">電子商務業務量統計月報指定行查詢</a></li>
+                                  <li><a href="#">設備代理行角度申報資料Top10</a></li>
+                                  <li><a href="#">存款行(發卡行)角度申報資料Top10</a></li>
+                                  <li><a href="#">設備代理行角度申報資料全體銀行排行榜</a></li>
+                                  <li><a href="#">存款行(發卡行)角度申報資料全體銀行排行榜</a></li>
+                                  <li><a href="#">設備代理行角度統計資料比較查詢</a></li>
+                                  <li><a href="#">存款行(發卡行)角度統計資料比較查詢</a></li>
+                                  <li><a href="#">電子商務業務量統計月報查詢(New)</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a class="has-arrow" href="#" aria-expanded="false">財金信用卡專區</a>
+                                <ul aria-expanded="false" class="collapse">
+                                  <li><a href="#">資料下載</a></li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a class="has-arrow" href="#" aria-expanded="false">消費扣款特約商店專區</a>
+                                <ul aria-expanded="false" class="collapse">
+                                  <li><a href="#">特約商店查詢及下載</a></li>
+                                  <li><a href="#">特約商店單筆申報</a></li>
+                                  <li><a href="#">特約商店批次申報</a></li>
+                                  <li><a href="#">銀行檔案上傳查詢</a></li>
+                                  <li><a href="#">資料下載</a></li>
+                                </ul>
+                              </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>  
+            </div>
+            <div class="col-sm-9 gray">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#section1">Dashboard</a></li>
+                    <li><a href="#section2">Age</a></li>
+                    <li><a href="#section3">Gender</a></li>
+                    <li><a href="#section3">Geo</a></li>
+                </ul><br>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+      
+            $('#menu1').metisMenu();
+      
+        });
+      </script>
+</body>
+
+</html>
